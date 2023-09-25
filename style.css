@@ -8,17 +8,15 @@
   font-family: "Poppins";
   margin: auto;
 }
-body{
+body {
   background: black;
-
 }
 .container {
   width: 550px;
   margin-top: auto;
   margin: auto;
   margin-top: 18%;
-  background:white;
-
+  background: white;
 }
 .container h1 {
   margin: 5px 15px;
