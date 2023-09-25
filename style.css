@@ -1,0 +1,87 @@
+/* google fonts cdn for fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  margin: auto;
+}
+body{
+  background: black;
+
+}
+.container {
+  border: 2px solid red;
+  width: 550px;
+  margin-top: auto;
+  margin: auto;
+  background:white;
+
+}
+.container h1 {
+  margin: 5px 15px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.467);
+}
+.container #todoInput {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px solid #333;
+  border-radius: 5px 0px 0px 5px;
+
+  /* display: block; */
+}
+#todoInput::placeholder {
+  font-size: larger;
+  color: #333333c0;
+  font-weight: 500;
+}
+.container .addBtn {
+  padding: 10px;
+  width: 45px;
+  background: #333;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+}
+.container .delAllBtn {
+  padding: 5px 20px;
+  font-size: 15px;
+  background: #333;
+  color: #fff;
+  margin: 10px 0 15px 20px;
+  border-radius: 6px;
+}
+.container #list {
+  list-style: none;
+  margin: 20px;
+  border: 1px solid transparent;
+  background:rgba(128, 128, 128, 0.723); ;
+}
+.container #list .listItem {
+  background: rgba(211, 211, 211, 0.889);
+  color: #333;
+  height: 50px;
+  overflow: hidden;
+  padding: 7px 5px 0px 5px;
+  font-size: 20px;
+  margin: 1px;
+  justify-content: baseline;
+}
+.container #list .listItem button {
+  float: right;
+  margin-left: 15px;
+  padding: 5px 20px;
+  font-size: 15px;
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+  border-radius: 6px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!--Fontawesome for icons   -->
+    <script src="https://kit.fontawesome.com/595264f5cd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Todo App</h1>
+        <input id="todoInput" type="text" placeholder="Add a new task"><button class="addBtn" onclick="addItem()"><i
+                class="fa-solid fa-plus"></i></button>
+        <button class="delAllBtn" onclick="deleteAll()">Clear All</button>
+        <div>
+            <ol id="list">
+                <!-- <li class="listItem">
+                    codding
+                    <button onclick="delItem(this)">Delete</button>
+                    <button onclick="editItem(this)">Edit</button>
+                </li> -->
+            </ol>
+        </div>
+
+    </div>
+    <!-- External Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
