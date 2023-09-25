@@ -13,10 +13,10 @@ body{
 
 }
 .container {
-  border: 2px solid red;
   width: 550px;
   margin-top: auto;
   margin: auto;
+  margin-top: 18%;
   background:white;
 
 }
@@ -36,8 +36,6 @@ body{
   margin-left: 20px;
   border: 2px solid #333;
   border-radius: 5px 0px 0px 5px;
-
-  /* display: block; */
 }
 #todoInput::placeholder {
   font-size: larger;
@@ -62,17 +60,15 @@ body{
 .container #list {
   list-style: none;
   margin: 20px;
-  border: 1px solid transparent;
-  background:rgba(128, 128, 128, 0.723); ;
+  padding-bottom: 40px;
 }
 .container #list .listItem {
   background: rgba(211, 211, 211, 0.889);
   color: #333;
+  border: 1px solid rgba(128, 128, 128, 0.723);
   height: 50px;
-  overflow: hidden;
-  padding: 7px 5px 0px 5px;
+  padding: 5px;
   font-size: 20px;
-  margin: 1px;
   justify-content: baseline;
 }
 .container #list .listItem button {
